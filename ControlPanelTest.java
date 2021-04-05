@@ -1,6 +1,6 @@
 class ControlPanelTest {
     public static void main(String[] args) {
-        new com.company.ControlPanel().control();
+        new ControlPanel().control();
     }
 }
 
@@ -18,8 +18,8 @@ class AirGauge{
 }
 
 class ControlPanel{
-    private com.company.Altimeter altimeter = new com.company.Altimeter();
-    private com.company.AirGauge airGauge = new com.company.AirGauge();
+    private Altimeter altimeter = new Altimeter();
+    private AirGauge airGauge = new AirGauge();
 
     public void control() {
         System.out.println(altimeter);
